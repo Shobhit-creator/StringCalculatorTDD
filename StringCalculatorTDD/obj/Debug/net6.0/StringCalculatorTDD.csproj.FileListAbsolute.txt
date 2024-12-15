@@ -1,0 +1,15 @@
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\bin\Debug\net6.0\StringCalculatorTDD.exe
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\bin\Debug\net6.0\StringCalculatorTDD.deps.json
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\bin\Debug\net6.0\StringCalculatorTDD.runtimeconfig.json
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\bin\Debug\net6.0\StringCalculatorTDD.dll
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\bin\Debug\net6.0\StringCalculatorTDD.pdb
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.csproj.AssemblyReference.cache
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.AssemblyInfoInputs.cache
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.AssemblyInfo.cs
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.csproj.CoreCompileInputs.cache
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.dll
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\refint\StringCalculatorTDD.dll
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.pdb
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\StringCalculatorTDD.genruntimeconfig.cache
+c:\Users\shobhit\Documents\StringCalculatorTDD\StringCalculatorTDD\obj\Debug\net6.0\ref\StringCalculatorTDD.dll
