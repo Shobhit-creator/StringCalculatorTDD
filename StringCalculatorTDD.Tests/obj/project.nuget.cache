@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HyCwTd5kDt37YqplvLRC22wcDVxboITANj72g3NKhZs2oWFl1CXCJr/U73HKU2gTd4SkOEDEqKESdGzDdVP6MQ==",
+  "dgSpecHash": "wHHNv4cmHmrT63mu37y3Rmyj2eTgBZj/50+E7R6Rcx1awhJX5CTNBqlnTxisfAyEC6qx6w0A9SR18rtZFg5T6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\StringCalculatorTDD.Tests.csproj",
+  "projectFilePath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\StringCalculatorTDD.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shobhit\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\shobhit\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

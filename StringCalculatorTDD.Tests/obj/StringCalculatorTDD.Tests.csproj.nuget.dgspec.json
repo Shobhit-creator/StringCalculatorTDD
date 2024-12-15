@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\StringCalculatorTDD.Tests.csproj": {}
+    "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\StringCalculatorTDD.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\StringCalculatorTDD.Tests.csproj": {
+    "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\StringCalculatorTDD.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\StringCalculatorTDD.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\StringCalculatorTDD.Tests.csproj",
         "projectName": "StringCalculatorTDD.Tests",
-        "projectPath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\StringCalculatorTDD.Tests.csproj",
+        "projectPath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\StringCalculatorTDD.Tests.csproj",
         "packagesPath": "C:\\Users\\shobhit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.Tests\\obj\\",
+        "outputPath": "C:\\Users\\shobhit\\Documents\\StringCalculatorTDD\\StringCalculatorTDD.tESTS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shobhit\\AppData\\Roaming\\NuGet\\NuGet.Config"
