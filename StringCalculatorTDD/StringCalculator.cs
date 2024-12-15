@@ -9,12 +9,18 @@ public static class StringCalculator
         int sum = 0, i= 0, num = 0;
         while(i < n)
         {
-            if(chars[i] == ',')
+            if(chars[i] == ',' || chars[i] == '\n')
             {
                 sum += num;
                 num = 0;
             }
-            else
+            else if (chars[i] == '\\' && i + 1 < n && chars[i + 1] == 'n')
+            {
+                sum += num;
+                num = 0;   
+                i++;         
+            }
+            else if(chars[i] >= '0' && chars[i] <= '9')
             {
                 num = chars[i] - '0' + num * 10;
             }

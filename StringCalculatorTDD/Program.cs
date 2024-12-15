@@ -7,6 +7,7 @@ class Program
 
         string numbers = Console.ReadLine();
 
-        Console.WriteLine($"User entered numbers: {numbers}");
+        int result = StringCalculator.Add(numbers);
+        Console.WriteLine($"User entered numbers: {result}");
     }
 }
