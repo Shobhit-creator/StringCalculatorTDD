@@ -4,13 +4,15 @@ namespace StringCalculatorTDD.Tests;
 
 public class StringCalculatorTests
 {
-    [Fact]
-    public void EmptyString_NoNumbersToAdd_ShouldReturnZero()
+
+    [Theory]
+    [InlineData("", 0)]
+    [InlineData("2", 2)]
+    [InlineData("2,3,5,7", 17)]
+    public void NumberString_ValidInput_ShouldReturnSum(string input, int expectedResult)
     {
-        string str = "";
+        int result = StringCalculator.Add(input);
 
-        int result = StringCalculator.Add(str);
-
-        Assert.Equal(result, 0);
+        Assert.Equal(result, expectedResult);
     }
 }
