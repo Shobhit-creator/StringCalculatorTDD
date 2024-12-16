@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace StringCalculatorTDD.Tests;
@@ -21,5 +22,16 @@ public class StringCalculatorTests
         int result = StringCalculator.Add(input);
 
         Assert.Equal(result, expectedResult);
+    }
+
+    [Theory]
+    [InlineData("1,-2", "-2")]
+    [InlineData("1,2,4,-1", "-1")]
+    [InlineData("//,\n1,-2\n5,-6", "-2,-6")]
+    public void NegativeNumberString_InvalidInput_ShouldThrowException(string input, string negativeNumbers)
+    {
+        var exception = Assert.Throws<ArgumentException>(() => StringCalculator.Add(input));
+
+        Assert.Equal($"Negative numbers are not allowed: {negativeNumbers}", exception.Message);
     }
 }
