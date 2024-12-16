@@ -25,12 +25,24 @@ public static class StringCalculator
             delimiters[1] = ",";
         }
         string[] numbersArray = numbers.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
-        foreach(string number in numbersArray)
+        List<int> negativeNumbers = new List<int>();
+        foreach (string number in numbersArray)
         {
             if(int.TryParse(number, out int integer))
             {
-                sum += integer;
+                if(integer < 0)
+                {
+                    negativeNumbers.Add(integer);
+                }
+                else
+                {
+                    sum += integer;
+                }
             }
+        }
+        if(negativeNumbers.Count > 0)
+        {
+            throw new ArgumentException($"Negative numbers are not allowed: {string.Join(",", negativeNumbers)}");
         }
         return sum;
     }
