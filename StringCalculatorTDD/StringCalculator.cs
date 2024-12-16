@@ -25,7 +25,6 @@ public static class StringCalculator
             delimiters[1] = ",";
         }
         string[] numbersArray = numbers.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
-        Console.WriteLine($"delimiters: {delimiters[0]} and delimiters: {delimiters[1]}");
         foreach(string number in numbersArray)
         {
             if(int.TryParse(number, out int integer))
