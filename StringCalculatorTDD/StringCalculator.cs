@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace StringCalculatorTDD;
 public static class StringCalculator
 {
@@ -5,28 +7,32 @@ public static class StringCalculator
     {
         int n = numbers.Length;
         if(numbers.Length == 0) return 0;
-        char[] chars = numbers.ToCharArray();
-        int sum = 0, i= 0, num = 0;
-        while(i < n)
+
+        int sum = 0;
+        string pattern = @"^//(.+)\n([\s\S]*)$";
+
+        Match match = Regex.Match(numbers, pattern);
+        string[] delimiters = new string[2];
+        delimiters[0] = "\n";
+        if(match.Success)
         {
-            if(chars[i] == ',' || chars[i] == '\n')
-            {
-                sum += num;
-                num = 0;
-            }
-            else if (chars[i] == '\\' && i + 1 < n && chars[i + 1] == 'n')
-            {
-                sum += num;
-                num = 0;   
-                i++;         
-            }
-            else if(chars[i] >= '0' && chars[i] <= '9')
-            {
-                num = chars[i] - '0' + num * 10;
-            }
-            i += 1;
+            string delimiter = match.Groups[1].Value; 
+            numbers = match.Groups[2].Value;
+
+            delimiters[1] = delimiter;
+        }else
+        {
+            delimiters[1] = ",";
         }
-        sum += num;
+        string[] numbersArray = numbers.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        Console.WriteLine($"delimiters: {delimiters[0]} and delimiters: {delimiters[1]}");
+        foreach(string number in numbersArray)
+        {
+            if(int.TryParse(number, out int integer))
+            {
+                sum += integer;
+            }
+        }
         return sum;
     }
 }
